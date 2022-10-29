@@ -1,0 +1,576 @@
+<style>
+    .middle-ban-wrap {
+        background: url('https://cdn.shopify.com/s/files/1/2518/0848/files/Mask_Group_7.png');
+        background-size: cover;
+        background-position: 80%;
+      position: relative;
+    }
+
+    .middle-ban-wrap::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.4);
+        z-index: 0;
+    }
+
+    .top-section-3{
+      z-index: 1;
+      position: relative;
+    }
+
+    .top-section-3 .title-3 .title-text-3 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: #FFFFFF;
+        line-height: 44px;
+        padding: 30px 0px;
+    }
+
+    .bg-section {
+        background: #fff;
+        padding-top: 30px;
+    }
+
+    .bottom-section-3 {
+        display: flex;
+        padding: 30px 60px;
+        z-index: 1;
+        position: relative;
+    }
+
+    .left-section-3 {
+        display: block;
+        width: 100%;
+    }
+
+    .left-section-3 button {
+        display: inline-block;
+        background-color: #FFF;
+        font-weight: 600;
+        letter-spacing: 0px;
+        color: #747474;
+        padding: 12px 0;
+        width: 350px;
+        margin-bottom: 15px;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .left-section-3 button.active {
+        background-color: #D0060B;
+        color: #FFFFFF;
+    }
+
+    .right-section-3 {
+        display: block;
+        padding-left: 50px;
+    }
+
+    .tab-title-3 .tab-title-text-3 {
+        color: #FFFFFF;
+        padding: 10px 0px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .tab-button-3 button {
+        background-color: #FFFFFF;
+        height: 50px;
+        width: 220px;
+        border-radius: 10px;
+        margin-top: 35px;
+        font-size: 17px;
+        color: #D0060B;
+        font-weight: 500;
+    }
+
+    .tab-content-3 .tab-content-text-3,
+    .tab-sub-contents-3 .bottom-tab-sub-contents-3 .tab-content-text-3 {
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: 28px;
+        padding-top: 5px;
+        margin-bottom: 5px;
+      font-weight: 400;
+    }
+
+    .top-tab-sub-contents-3 ul {
+        padding-top: 10px;
+        padding-left: 15px;
+        list-style-position: unset;
+    }
+
+    .tab-sub-contents-3 ul li {
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 5px;
+      font-weight: 400;
+    }
+
+    .tab-sub-contents-3 ul li a {
+        text-decoration: underline;
+        color: white;
+        margin-left: 30px;
+    }
+
+    #show_more_1,
+    #show_more_2,
+    #show_more_3,
+    #show_more_4,
+    #show_more_5,
+    #show_more_6 {
+        display: none;
+    }
+
+    #learn_more_1,
+    #learn_more_2,
+    #learn_more_3,
+    #learn_more_4,
+    #learn_more_5,
+    #learn_more_6,
+    .show {
+        color: #fff;
+        text-decoration: underline;
+        cursor: pointer;
+        padding-left: 20px;
+        font-weight: 500;
+    }
+</style>
+<div class="row bg-section">
+    <div class="container">
+        <div class="row middle-ban-wrap">
+            <div class="top-section-3">
+                <div class="title-3">
+                    <p class="title-text-3">Best Safety & Cleaning Supplies For Every Industry</p>
+                </div>
+            </div>
+            <div class="bottom-section-3">
+                <div class="left-section-3">
+                    <button class="tablinks" onclick="openEquipement(event, 'safety-glass-3'); img1()" id="defaultOpen">Safety
+                        Glass</button>
+                    <button class="tablinks" onclick="openEquipement(event, 'safety-gloves-3'); img2()">Safety Gloves</button>
+                    <button class="tablinks" onclick="openEquipement(event, 'knee-pads-3'); img3()">Knee Pads</button>
+                    <button class="tablinks" onclick="openEquipement(event, 'disposable-gloves-3'); img4()">Disposable
+                        Gloves</button>
+                </div>
+                <div class="right-section-3">
+                    <div id="safety-glass-3" class="tabcontent">
+                        <div class="tab-title-3">
+                            <h3 class="tab-title-text-3">Safety Glass</h3>
+                        </div>
+                        <div class="tab-content-3">
+                            <p class="tab-content-text-3">At Bison Life, we pride ourselves on being the go-to supplier
+                                for all
+                                your safety equipment needs. We offer discounts on bulk orders and easy return policies
+                                to
+                                ensure you are always satisfied with your purchase. We value our customers, and our
+                                experienced
+                                staff is always available to attend and answer any questions that you may have. And we
+                                store
+                                products that are second to none.</p>
+                        </div>
+                        <div class="tab-sub-contents-3">
+                            <div class="top-tab-sub-contents-3">
+                                <ul>
+                                    <li>
+                                        Our eye safety glasses are made with the highest
+                                        quality
+                                        materials. They have various essential product features, including anti-scratch,
+                                        anti-fog,
+                                        and splash-resistant lenses, a mirror finish for maximum glare reduction, and UV
+                                        protection.
+
+                                    </li>
+                                    <li>
+                                        The lenses and frames are made of the highest
+                                        quality
+                                        polycarbonate impact-resistant material.
+                                    </li>
+                                    <li>
+                                        We have safety glasses certified by Underwriters
+                                        Laboratories, and all of our safety glasses exceed the ANSI Z87.1
+                                        standards.<button id="learn_more_1" onclick="learnMore1()">Learnmore</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bottom-tab-sub-contents-3 show_more" id="show_more_1">
+                                <ul>
+                                    <li>
+                                        Product features like adjustable straps, complete
+                                        coverage protection to safeguard eyes from splashes or falling particles, and
+                                        glasses
+                                        that fit most head sizes comfortably without slippage make our collection the
+                                        best
+                                        in
+                                        the industry and us the best safety glass supplier.
+                                    </li>
+                                    <li>
+                                        We have unisex anti-fog safety glasses that come in
+                                        assorted colors and would look great on both adults and youth.
+                                    </li>
+                                    <li>
+                                        Whether you purchase for personal protection or need
+                                        to outfit an entire workforce, Bison Life has you covered.
+                                    </li>
+                                    <li>
+                                        We are one of the most trusted safety glass
+                                        manufacturers ensuring high quality for our customers.
+                                    </li>
+                                    <li>
+                                        Bison Life is your one-stop shop for all your safety
+                                        glass needs, whether you are looking for construction safety glasses, industrial
+                                        safety glasses, or medical or general purposes like everyday use. Our collection
+                                        ranges from welding safety glasses to UV protection safety glasses and
+                                        everything in
+                                        between.
+                                    </li>
+                                    <li>
+                                        We offer special pricing for safety glass wholesale
+                                        deals - a great way to get the best prices for top-of-the-line products. Read
+                                        the
+                                        store policies to find the special prices for safety glass bulk orders. Contact
+                                        us
+                                        today to learn more about our products and how we can help you stay safe on the
+                                        job.<button class="show" onclick="showLess1()">Showless</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab-button-3">
+                            <button class="tab-button-enquire-3" onclick=topFunction()>Enquire
+                                Now!</button>
+                        </div>
+                    </div>
+                    <div id="safety-gloves-3" class="tabcontent">
+                        <div class="tab-title-3">
+                            <h3 class="tab-title-text-3">Safety Gloves</h3>
+                        </div>
+                        <div class="tab-content-3">
+                            <p class="tab-content-text-3">Introducing safety gloves by Bison Life. We are a leading
+                                supplier of
+                                high-quality safety gloves in bulk. We have a wide range of gloves to meet your safety
+                                requirements in any job environment. We have you covered from leather welding gloves,
+                                construction work gloves, and industrial gloves to multi-purpose gloves.</p>
+                            <p class="tab-content-text-3">Our wholesale work gloves are perfect for construction safety
+                                or
+                                industrial applications. We offer wholesale discounts on all our products so you can
+                                save big on
+                                your next purchase.
+                            </p>
+                        </div>
+                        <div class="tab-sub-contents-3">
+                            <div class="top-tab-sub-contents-3">
+                                <ul>
+                                    <li>
+                                        Our gloves offer advantages like abrasion
+                                        resistance, excellent flexibility, and durability and are non-slip,
+                                        high-performance
+                                        gloves.
+
+                                    </li>
+                                    <li>
+                                        Our heavy-duty welding gloves are made of soft yet
+                                        durable split cowhide leather with reinforced padding, making them ideal for TIG
+                                        welding, MIG welding, metal works, maintenance, renovation, carpentry, and
+                                        workshop
+                                        environments.<button id="learn_more_2" onclick="learnMore2()">Learnmore</button>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="bottom-tab-sub-contents-3  show_more" id="show_more_2">
+                                <ul>
+                                    <li>
+                                        The construction safety gloves are effective when
+                                        holding high heat and abrasion and offer excellent breathability to help you
+                                        work
+                                        longer and stay cooler and more comfortable.
+                                    </li>
+                                    <li>
+                                        Some of our safety gloves with a soft polyester knit
+                                        blend provide level 5 cut resistance, while the ambidextrous design and
+                                        smartphone
+                                        touchscreen compatibility offer added convenience.
+                                    </li>
+                                    <li>
+                                        Made with the best materials, these work gloves are
+                                        perfect for a variety of applications, from food handling to industrial work.
+                                    </li>
+                                    <p class="tab-content-text-3">So whether you're looking for better grip, protection,
+                                        or just
+                                        an all-around better glove, the safety work gloves by Bison Life are a perfect
+                                        choice.
+                                        You can purchase our work gloves in bulk and ensure higher productivity and
+                                        protection
+                                        from workplace hazards that can cause serious injury to your staff. </p>
+                                    <p class="tab-content-text-3">Contact us today to learn more about our wholesale
+                                        work gloves
+                                        and how we can help you save big. Don't sacrifice safety for comfort - get the
+                                        best of
+                                        both worlds with the Bison Life Safety Gloves.<button class="show"
+                                            onclick="showLess2()">Showless</button></p>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="tab-button-3">
+                            <button class="tab-button-enquire-3" onclick=topFunction()>Enquire
+                                Now!</button>
+                        </div>
+                    </div>
+                    <div id="knee-pads-3" class="tabcontent">
+                        <div class="tab-title-3">
+                            <h3 class="tab-title-text-3">Knee Pads</h3>
+                        </div>
+                        <div class="tab-content-3">
+                            <p class="tab-content-text-3">Bison Life is your one-stop shop for all your safety knee-pad
+                                needs! We carry an extensive collection of knee pads, from comfortable foam knee pads
+                                for long days on the job to heavy-duty gel knee pads for construction work. Safety is
+                                always our top priority, so we only carry the best knee pads for work on the market.</p>
+                            <p class="tab-content-text-3">And for our customers needing to outfit a large team, we offer
+                                wholesale and bulk discounts on all our products. So whether you're a contractor looking
+                                for a new supplier to make bulk orders or an individual consumer looking for the perfect
+                                pair of knee pads, Bison Life is here to help.
+                            </p>
+                        </div>
+                        <div class="tab-sub-contents-3">
+                            <div class="top-tab-sub-contents-3">
+                                <ul>
+                                    <li>
+                                        The thick silicone gel and pillow comfort memory foam in our gel knee pads offer
+                                        superior protection, while the Power-flex Support pads add an extra layer of
+                                        support.
+                                    </li>
+                                    <li>
+                                        Our professional gel knee pads have soft gel core and EVA foam padding that help
+                                        to absorb impact, while the deep textured silicone grooves help to keep the pads
+                                        in place.
+                                        <button id="learn_more_3" onclick="learnMore3()">Learnmore</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bottom-tab-sub-contents-3 show_more" id="show_more_3">
+                                <ul>
+                                    <li>
+                                        Our construction knee pads are the perfect way to protect your knees as they
+                                        have hard caps and are made with breathable 600D polyester and high-density EVA
+                                        foam, ensuring durability, strength, and comfort.
+                                    </li>
+                                    <li>
+                                        The flexible elastic straps in our knee pads make them easy to fasten, and the
+                                        EPE hook and loop closures ensure a secure fit.
+                                    </li>
+                                    <li>
+                                        We offer a variety of high-quality pads that can be used for various
+                                        applications. Our safety knee pads are perfect for construction work, roofing,
+                                        flooring, welding, stocking shelves, gardening, cleaning, and crawling.
+                                    </li>
+                                    <p class="tab-content-text-3">At Bison Life, we believe that no job is worth
+                                        sacrificing your safety for. So feel free to visit our website or contact us
+                                        today for more information, and we will be glad to help you choose the perfect
+                                        pair of safety knee pads at the best price.<button class="show"
+                                            onclick="showLess3()">Showless</button></p>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="tab-button-3">
+                            <button class="tab-button-enquire-3" onclick=topFunction()>Enquire
+                                Now!</button>
+                        </div>
+                    </div>
+                    <div id="disposable-gloves-3" class="tabcontent">
+                        <div class="tab-title-3">
+                            <h3 class="tab-title-text-3">Disposable Gloves</h3>
+                        </div>
+                        <div class="tab-content-3">
+                            <p class="tab-content-text-3">Bison Life is one of the biggest providers of disposable
+                                gloves. We offer a wide variety of gloves, including nitrile, vinyl, and poly gloves.
+                                Our gloves are perfect for food handling, preparation, and service. Our nitrile gloves
+                                are also great for other applications, such as painting or cleaning.</p>
+                            <p class="tab-content-text-3">We offer wholesale and bulk order discounts on all of our
+                                gloves. Contact us today to learn more about our products and how we can help you save
+                                money on your next purchase.
+                            </p>
+                        </div>
+                        <div class="tab-sub-contents-3">
+                            <div class="top-tab-sub-contents-3">
+                                <ul>
+                                    <li>
+                                        Our food handling gloves are made from a high-quality natural latex to help
+                                        protect your hands and prevent contamination.
+                                    </li>
+                                    <li>
+                                        Our disposable food service gloves offer a comfortable grip and ambidextrous
+                                        fit, allowing you to wear them on both left and right hands.
+                                        <button id="learn_more_5" onclick="learnMore5()">Learnmore</button>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="bottom-tab-sub-contents-3 show_more" id="show_more_5">
+                                <ul>
+                                    <li>
+                                        Nitrile Disposable Gloves by Bison Life are made of 100% synthetic nitrile
+                                        latex, which is exceptionally high quality, allergy-free, non-toxic, and healthy
+                                        to use.
+                                    </li>
+                                    <li>
+                                        We are one of the most trusted nitrile gloves bulk suppliers offering blue
+                                        nitrile gloves with excellent physical properties, including good tear,
+                                        puncture, and friction resistance.
+                                    </li>
+                                    <li>
+                                        Purchase our high-density poly gloves that are non-sterile, oil-resistant, 100%
+                                        latex-free, powder-free, and allergy-free.
+                                    </li>
+                                    <li>
+                                        The disposable vinyl gloves are made from polyvinyl chloride (PVC), featuring
+                                        excellent palm and fingertips sensitivity and a smooth fit and feel.
+                                    </li>
+                                    <p class="tab-content-text-3">At Bison Life, our disposable gloves are designed to
+                                        provide a barrier of protection while still allowing you to maintain dexterity
+                                        and grip. They are perfect for use in various settings, including food
+                                        preparation, cleaning, and healthcare. Our gloves are made from high-quality
+                                        latex that is both strong and flexible. They are also powder-free to prevent
+                                        irritation. </p>
+                                    <p class="tab-content-text-3">Best of all, our disposable gloves are affordably
+                                        priced, so you can stock up and stay protected. Order your disposable gloves
+                                        today, and be prepared for whatever life throws your way.
+                                        <button class="show" onclick="showLess5()">Showless</button>
+                                    </p>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="tab-button-3">
+                            <button class="tab-button-enquire-3" onclick=topFunction()>Enquire
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script>
+  function img1(){
+    document.getElementsByClassName("middle-ban-wrap")[0].style.backgroundImage = "url('https://cdn.shopify.com/s/files/1/2518/0848/files/Mask_Group_7.png')";
+    document.getElementById("show_more_1").style.display = "none";
+    document.getElementById("learn_more_1").style.display = "inline-block";
+  }
+  function img2(){
+   document.getElementsByClassName("middle-ban-wrap")[0].style.backgroundImage = "url('https://cdn.shopify.com/s/files/1/2518/0848/files/Safety_Gloves_2.jpg')";
+    document.getElementById("show_more_2").style.display = "none";
+    document.getElementById("learn_more_2").style.display = "inline-block";
+  }
+  function img3(){
+    document.getElementsByClassName("middle-ban-wrap")[0].style.backgroundImage = "url('https://cdn.shopify.com/s/files/1/2518/0848/files/Kneepads_3.jpg')";
+    document.getElementById("show_more_3").style.display = "none";
+    document.getElementById("learn_more_3").style.display = "inline-block";
+  }
+  function img4(){
+    document.getElementsByClassName("middle-ban-wrap")[0].style.backgroundImage = "url('https://cdn.shopify.com/s/files/1/2518/0848/files/Disposable_Gloves.jpg')";
+    document.getElementById("show_more_5").style.display = "none";
+    document.getElementById("learn_more_5").style.display = "inline-block";
+  }
+</script>
+
+<script>
+    function openEquipement(evt, equipementName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+
+
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        console.log(tablinks.length);
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(equipementName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click(); 1
+</script>
+
+<script>
+    function learnMore1() {
+        document.getElementById("show_more_1").style.display = "inline-block";
+        document.getElementById("learn_more_1").style.display = "none";
+       document.getElementsByClassName("middle-ban-wrap")[0].style.backgroundImage = "url('https://cdn.shopify.com/s/files/1/2518/0848/files/Safety_Glass_d934a2b5-807a-4b86-ad70-b86049b1b27c.jpg')";
+    }
+    function showLess1() {
+        document.getElementById("show_more_1").style.display = "none";
+        document.getElementById("learn_more_1").style.display = "inline-block";
+       document.getElementsByClassName("middle-ban-wrap")[0].style.backgroundImage = "url('https://cdn.shopify.com/s/files/1/2518/0848/files/Mask_Group_7.png')";
+    }
+    function learnMore2() {
+        document.getElementById("show_more_2").style.display = "inline-block";
+        document.getElementById("learn_more_2").style.display = "none";
+       document.getElementsByClassName("middle-ban-wrap")[0].style.backgroundImage = "url('https://cdn.shopify.com/s/files/1/2518/0848/files/Safety_Gloves_b0da215f-7b03-4349-bea5-094a7846b33d.jpg')";
+    }
+    function showLess2() {
+        document.getElementById("show_more_2").style.display = "none";
+        document.getElementById("learn_more_2").style.display = "inline-block";
+         document.getElementsByClassName("middle-ban-wrap")[0].style.backgroundImage = "url('https://cdn.shopify.com/s/files/1/2518/0848/files/Safety_Gloves_2.jpg')";
+    }
+    function learnMore3() {
+        document.getElementById("show_more_3").style.display = "inline-block";
+        document.getElementById("learn_more_3").style.display = "none";
+        document.getElementsByClassName("middle-ban-wrap")[0].style.backgroundImage = "url('https://cdn.shopify.com/s/files/1/2518/0848/files/Kneepads_ef82ead2-1fa4-4718-bc83-1ee56f3d9f60.jpg')";
+    }
+    function showLess3() {
+        document.getElementById("show_more_3").style.display = "none";
+        document.getElementById("learn_more_3").style.display = "inline-block";
+        document.getElementsByClassName("middle-ban-wrap")[0].style.backgroundImage = "url('https://cdn.shopify.com/s/files/1/2518/0848/files/Kneepads_3.jpg')";
+    }
+    function learnMore4() {
+        document.getElementById("show_more_4").style.display = "inline-block";
+        document.getElementById("learn_more_4").style.display = "none";
+    }
+    function showLess4() {
+        document.getElementById("show_more_4").style.display = "none";
+        document.getElementById("learn_more_4").style.display = "inline-block";
+        document.getElementsByClassName("middle-ban-wrap")[0].style.backgroundImage = "url('https://cdn.shopify.com/s/files/1/2518/0848/files/Disposable_Gloves.jpg')";
+    }
+    function learnMore5() {
+        document.getElementById("show_more_5").style.display = "inline-block";
+        document.getElementById("learn_more_5").style.display = "none";
+       document.getElementsByClassName("middle-ban-wrap")[0].style.backgroundImage = "url('https://cdn.shopify.com/s/files/1/2518/0848/files/Disposabel_Gloves_new.jpg')";
+    }
+    function showLess5() {
+        document.getElementById("show_more_5").style.display = "none";
+        document.getElementById("learn_more_5").style.display = "inline-block";
+    }
+    function learnMore6() {
+        document.getElementById("show_more_6").style.display = "inline-block";
+        document.getElementById("learn_more_6").style.display = "none";
+    }
+    function showLess6() {
+        document.getElementById("show_more_6").style.display = "none";
+        document.getElementById("learn_more_6").style.display = "inline-block";
+    }
+
+</script>
+
+<script>
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
